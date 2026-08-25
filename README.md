@@ -17,7 +17,7 @@ The system identifies products by color, routes them to dedicated processing lin
 - FIFO Priority Management
 - Alarm Management
 
-> 📸 Add image: `Images/full factory.png`
+![Full Factory](Images/full%20factory.PNG)
 
 ---
 
@@ -121,7 +121,7 @@ The **Right Robot** performs the complete machining cycle:
 6. Open the clamp.
 7. Return the processed product to the conveyor.
 
-> 📸 Add image: `Images/02-green-machining.png`
+![Green Machining](Images/02-green-machining.PNG)
 
 ---
 
@@ -133,7 +133,7 @@ The **Left Robot** performs:
 
 **Pick → Fixture → Clamp → Machining → Unclamp → Return**
 
-> 📸 Add image: `Images/03-blue-machining.png`
+![Blue Machining](Images/03-blue-machining.PNG)
 
 ---
 
@@ -142,7 +142,6 @@ The **Left Robot** performs:
 Gray products are routed to the middle conveyor and bypass the machining stations.
 
 They continue through the material flow without machining.
-
 
 ---
 
@@ -162,7 +161,7 @@ Queue1 → Second waiting product
 Queue2 → Third waiting product
 ```
 
-> 📸 Add image: `Images/04-priority-fifo.png`
+![Priority FIFO](Images/04-priority-fifo.PNG)
 
 ---
 
@@ -178,7 +177,7 @@ Vision sensors identify the product color and activate the corresponding pusher:
 
 The products are then directed to their corresponding final storage areas.
 
-> 📸 Add image: `Images/05-final-sorting.png`
+![Final Sorting](Images/05-final-sorting.PNG)
 
 ---
 
@@ -195,10 +194,10 @@ Main HMI screens include:
 
 > 📸 Add screenshots:
 >
-> `Images/hmi-main.png`  
-> `Images/hmi-control.png`  
-> `Images/hmi-status.png`  
-> `Images/hmi-alarms.png`
+![HMI Main](Images/hmi-main.PNG)
+![HMI Control](Images/hmi-control.PNG)
+![HMI Status](Images/hmi-status.PNG)
+![HMI Alarms](Images/hmi-alarms.PNG)
 
 ---
 
@@ -215,7 +214,7 @@ Implemented alarms include:
 
 The alarms are consolidated through a central alarm structure and displayed to the operator through the HMI.
 
-> 📸 Add image: `Images/hmi-alarms.png`
+![HMI Alarms](Images/hmi-alarms.PNG)
 
 ---
 
@@ -235,8 +234,7 @@ OB1
 
 The project uses **Ladder Logic**, modular FB architecture, Instance DBs, timers, interlocks, and dedicated monitoring variables for the HMI.
 
-> 📸 Add image: `Images/tia-portal-architecture.png`
-
+![TIA Portal Architecture](Images/tia-portal-architecture.PNG)
 ---
 
 ## 📁 Repository Structure

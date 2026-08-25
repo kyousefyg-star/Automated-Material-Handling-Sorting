@@ -17,6 +17,8 @@ The system identifies products by color, routes them to dedicated processing lin
 - FIFO Priority Management
 - Alarm Management
 
+> 📸 Add image: `Images/full factory.png`
+
 ---
 
 ## 🔄 Complete Process Flow
@@ -101,7 +103,7 @@ The PLC identifies the product and determines its routing:
 - **Blue → Left Conveyor**
 - **Gray → Middle Conveyor / Bypass**
 
-> 📸 Add image: `images/01-infeed-color-detection.png`
+> 📸 Add image: `Images/01-infeed-color-detection.png`
 
 ---
 
@@ -119,7 +121,7 @@ The **Right Robot** performs the complete machining cycle:
 6. Open the clamp.
 7. Return the processed product to the conveyor.
 
-> 📸 Add image: `images/02-green-machining.png`
+> 📸 Add image: `Images/02-green-machining.png`
 
 ---
 
@@ -131,7 +133,7 @@ The **Left Robot** performs:
 
 **Pick → Fixture → Clamp → Machining → Unclamp → Return**
 
-> 📸 Add image: `images/03-blue-machining.png`
+> 📸 Add image: `Images/03-blue-machining.png`
 
 ---
 
@@ -141,7 +143,6 @@ Gray products are routed to the middle conveyor and bypass the machining station
 
 They continue through the material flow without machining.
 
-> 📸 Add image: `images/04-gray-bypass.png`
 
 ---
 
@@ -161,7 +162,7 @@ Queue1 → Second waiting product
 Queue2 → Third waiting product
 ```
 
-> 📸 Add image: `images/05-priority-fifo.png`
+> 📸 Add image: `Images/04-priority-fifo.png`
 
 ---
 
@@ -177,7 +178,7 @@ Vision sensors identify the product color and activate the corresponding pusher:
 
 The products are then directed to their corresponding final storage areas.
 
-> 📸 Add image: `images/06-final-sorting.png`
+> 📸 Add image: `Images/05-final-sorting.png`
 
 ---
 
@@ -194,10 +195,10 @@ Main HMI screens include:
 
 > 📸 Add screenshots:
 >
-> `images/hmi-main.png`  
-> `images/hmi-control.png`  
-> `images/hmi-status.png`  
-> `images/hmi-alarms.png`
+> `Images/hmi-main.png`  
+> `Images/hmi-control.png`  
+> `Images/hmi-status.png`  
+> `Images/hmi-alarms.png`
 
 ---
 
@@ -214,7 +215,7 @@ Implemented alarms include:
 
 The alarms are consolidated through a central alarm structure and displayed to the operator through the HMI.
 
-> 📸 Add image: `images/hmi-alarms.png`
+> 📸 Add image: `Images/hmi-alarms.png`
 
 ---
 
@@ -234,7 +235,7 @@ OB1
 
 The project uses **Ladder Logic**, modular FB architecture, Instance DBs, timers, interlocks, and dedicated monitoring variables for the HMI.
 
-> 📸 Add image: `images/tia-portal-architecture.png`
+> 📸 Add image: `Images/tia-portal-architecture.png`
 
 ---
 

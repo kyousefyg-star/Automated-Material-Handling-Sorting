@@ -192,7 +192,6 @@ Main HMI screens include:
 - **Status:** Machine and process status
 - **Alarms:** Active alarms and alarm history
 
-> 📸 Add screenshots:
 >
 ![HMI Main](Images/hmi-main.PNG)
 ![HMI Control](Images/hmi-control.PNG)

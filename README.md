@@ -103,7 +103,7 @@ The PLC identifies the product and determines its routing:
 - **Blue → Left Conveyor**
 - **Gray → Middle Conveyor / Bypass**
 
-> 📸 Add image: `Images/01-infeed-color-detection.png`
+![Infeed Color Detection](Images/01-infeed-color-detection.PNG)
 
 ---
 

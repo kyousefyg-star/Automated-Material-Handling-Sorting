@@ -253,7 +253,7 @@ A short demonstration video shows the complete operation of the system:
 
 **Infeed → Color Detection → Routing → Machining → FIFO Priority → Final Sorting → HMI Monitoring**
 
-> 🎥 Add your YouTube / LinkedIn / GitHub video link here.
+ [▶️ Watch the full project demonstration](https://drive.google.com/file/d/1yLE1tFZfP-l7k48B2vchE7kzkVv0XPen/view?usp=sharing)
 
 ---
 
